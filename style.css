@@ -1,0 +1,295 @@
+@import url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* 인덱스 스타일 */
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    /* background-color: black;
+    opacity: 0.4; */
+    background: radial-gradient(
+        rgba(0, 4, 44, 0.09),
+        rgba(0, 4, 44, 0.9)
+    );
+}
+
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+.box01{
+    width: 100%;
+    padding-top: 216px;
+    text-align: center;
+    filter: drop-shadow(0px 0px 5px #000000);
+    
+
+}
+.box02{
+    width: 100%;
+    padding-top: 164px;
+    text-align: center;
+    font-family: 'DungGeunMo';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 29px;
+    color: white;
+    filter: drop-shadow(0px 0px 5px #000000);
+
+ 
+  
+
+}
+.box03{
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+    filter: drop-shadow(0px 0px 5px #000000);
+}
+
+/* 서브페이지 스타일 */
+
+
+.font01{
+    font-family: "DungGeunMo";
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 36px;
+}
+.font02{
+    font-family: "DungGeunMo";
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 15px;
+}
+
+
+.b01{height: 845px;background-color: #52FFEC;}
+.b02{height: 2309px;background-color: #1E172E;}
+.b03{height: 158px;}
+
+.sbox01{
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+    filter: drop-shadow(0px 3px 5px #128FBE);
+}
+
+.sbox02-0{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    color: #0B0022;
+}
+.sbox02-1{
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    filter: drop-shadow(0px 0px 5px #128FBE);
+}
+
+.sbox03{
+    width: 100%;
+    padding-top: 73px;
+    text-align: center;
+    filter: drop-shadow(0px 0px 5px #3db5e1);
+}
+
+.sbox04{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    color: #1A0054;
+}
+
+
+.sbox05{
+    width: 100%;
+    padding-top: 920px;
+    text-align: center;
+}
+
+/* 캐릭터 소개 세부항목 스타일 정비 */
+.b02_01{height: 170px;margin: 0 auto;position: relative;width: 350px;padding-top: 65px;}
+.b02_01_01{position: absolute;width: 130px;height: 130px;bottom: 0px; filter: drop-shadow(0px 0px 5px #128FBE);}
+.b02_01_02{position: absolute;height: 30px; color: white;left: 145px;}
+.b02_01_03{position: absolute;height: 130px; color: #BCBCBC;left: 145px;bottom: 0px;}
+
+.b02_02{height: 170px;margin: 0 auto;position: relative;width: 350px;padding-top: 210px;}
+.b02_02_01{position: absolute;width: 130px;height: 130px;bottom: 0px; filter: drop-shadow(0px 0px 5px #128FBE);}
+.b02_02_02{position: absolute;height: 30px; color: white;left: 145px;}
+.b02_02_03{position: absolute;height: 130px; color: #BCBCBC;left: 145px;bottom: 0px;}
+
+.b02_03{height: 170px;margin: 0 auto;position: relative;width: 365px;padding-top: 210px;}
+.b02_03_01{position: absolute;width: 130px;height: 130px;bottom: 0px; filter: drop-shadow(0px 0px 5px #128FBE);}
+.b02_03_02{position: absolute;height: 30px; color: white;left: 145px;}
+.b02_03_03{position: absolute;height: 130px; color: #BCBCBC;left: 145px;bottom: 0px;}
+
+.b02_04{
+    width: 130px;
+    height: 130px;
+    padding-top: 285px;
+    text-align: center;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 5px #128FBE);
+}
+
+.b02_04_01{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    color: white;
+}
+.b02_04_02{
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 15px;
+    color:  #BCBCBC;
+}
+
+
+.b02_05{
+    width: 270px;
+    height: 130px;
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 5px #128FBE);
+}
+.b02_05_02{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 15px;
+    color:  #BCBCBC;
+}
+
+
+
+.sbox01{
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+    filter: drop-shadow(0px 0px 5px #128FBE);
+}
+
+.b02_06_1{
+    width: 100px;
+    height: 100px;
+    padding-top: 70px;
+    text-align: center;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 5px #FF2D62);
+}
+.b02_06_02{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    color: white;
+}
+
+.b02_07_1{
+    width: 100px;
+    height: 100px;
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 5px #FDD534);
+}
+.b02_07_02{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    color: white;
+}
+
+
+.b02_08_1{
+    width: 100px;
+    height: 100px;
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 5px #52FFEC);
+}
+.b02_08_02{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    color: white;
+}
+
+.b02_09{
+    width: 100%;
+    height: 158px;
+}
+
+.b02_09_1{
+    width: 100%;
+    padding-top: 55px;
+    text-align: center;
+    font-family:'DungGeunMo';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    color:  #BCBCBC;
+}
